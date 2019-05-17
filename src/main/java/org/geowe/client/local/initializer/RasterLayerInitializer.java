@@ -77,7 +77,7 @@ public class RasterLayerInitializer {
 		layerManagerWidget.add(LayerManagerWidget.RASTER_TAB,
 				createRasterLayerTree(wmsLayers));
 
-		geoMap.centerMap(-99.14, 19.43, "EPSG:4326", geoMap.getMap().getProjection());
+		geoMap.centerMap(-101.86, 24, "EPSG:4326", geoMap.getMap().getProjection());
 	}
 
 	private EmptyLayer createEmptyBaseLayer() {
