@@ -62,7 +62,7 @@ public class GeoMap implements ChangeSelectedLayerListener{
 		final LonLat lonLat = new LonLat(lon, lat);
 		lonLat.transform(sourceProjection, targetProjection);
 		
-		getMap().setCenter(lonLat, 5);		
+		getMap().setCenter(lonLat, 6);
 	}
 		
 	public Map getMap() {
