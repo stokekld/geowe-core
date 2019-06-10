@@ -73,10 +73,10 @@ public class AppLayerCatalog extends AbstractLayerCatalog {
 		addLayers(googleLayerSet);
 		addLayers(bingLayerSet);
 		addLayers(osmLayerSet);
-		addLayers(esriLayerSet);
-		addLayers(ignLayerSet);
-		addLayers(pnoaWMTSLayerSet);
-		addLayers(miscWmsLayerSet);
-		addLayers(sampleLayeSet);			
+		//addLayers(esriLayerSet);
+		//addLayers(ignLayerSet);
+		//addLayers(pnoaWMTSLayerSet);
+		//addLayers(miscWmsLayerSet);
+		//addLayers(sampleLayeSet);			
 	}
 }
