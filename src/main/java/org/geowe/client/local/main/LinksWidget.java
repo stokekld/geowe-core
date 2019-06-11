@@ -96,10 +96,10 @@ public class LinksWidget implements IsWidget {
 		
 		hp.add(createPreviewDialogAnchor());
 		hp.add(abuilder.getGeoWEWebLink());
-		hp.add(abuilder.getGooglePlusLink());
+		//hp.add(abuilder.getGooglePlusLink());
 		hp.add(abuilder.getFaceBookLink());
-		hp.add(abuilder.getTwiterLink());
-		hp.add(abuilder.getBugLink());
+		//hp.add(abuilder.getTwiterLink());
+		//hp.add(abuilder.getBugLink());
 		hp.add(createLegendAnchor());
 		hp.add(createStatusPanelAnchor());
 	}
